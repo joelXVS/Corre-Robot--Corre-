@@ -6,14 +6,14 @@
 
 ## Índice
 
-1. [Descripción general](#-descripción-general)
-2. [Características del juego](#-características-del-juego)
-3. [Requisitos e instalación](#-requisitos-e-instalación)
-4. [Estructura del proyecto](#-estructura-del-proyecto)
-5. [Arquitectura del sistema](#-arquitectura-del-sistema)
-6. [Análisis POO](#-análisis-de-poo)
-7. [Diagramas UML](#-diagramas-uml)
-8. [Controles](#-controles)
+1. [Descripción general](#-Descripción-general)
+2. [Características del juego](#-Características-del-juego)
+3. [Requisitos e instalación](#-Requisitos-e-instalación)
+4. [Estructura del proyecto](#-Estructura-del-proyecto)
+5. [Arquitectura del sistema](#-Arquitectura-del-Sistema)
+6. [Análisis POO](#-Análisis-POO)
+7. [Diagramas UML](#-Diagramas-uml)
+8. [Controles](#-Controles)
 
 ---
 
@@ -255,15 +255,15 @@ CONDICIONES = {
 
 ## Diagramas UML
 ### Diagrama de Clases
-<img src="diagramas/conceptual.png" alt="Clases" width="600">
+<img src="diagramas/conceptual.png" alt="Clases" width="600"><>
 ### Diagrama de Casos de Uso
-<img src="diagramas/casos de uso.png" alt="Casos de uso" width="600">
+<img src="diagramas/casos de uso.png" alt="Casos de uso" width="600"><>
 ### Diagrama de secuencia (ciclo principal)
-<img src="diagramas/secuencia_main.png" alt="Ciclo main" width="600">
+<img src="diagramas/secuencia_main.png" alt="Ciclo main" width="600"><>
 ### Diagrama de secuencia (recoger batería)
-<img src="diagramas/secuencia_proceso_recogerBateria.png" alt="Secuencia de recoger bateria" width="600">
+<img src="diagramas/secuencia_proceso_recogerBateria.png" alt="Secuencia de recoger bateria" width="600"><>
 ### Diagrama de Estados
-<img src="diagramas/estados.png" alt="Estados" width="600">
+<img src="diagramas/estados.png" alt="Estados" width="600"><>
 
 ## Controles
 | Acción | Tecla por defecto |
