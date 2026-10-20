@@ -6,14 +6,14 @@
 
 ## Índice
 
-1. [Descripción general](#-descripcion)
-2. [Características del juego](#-caracteristicas)
-3. [Requisitos e instalación](#-requisitos)
-4. [Estructura del proyecto](#-estructura)
-5. [Arquitectura del sistema](#-arquitectura)
-6. [Análisis POO](#-analisis-POO)
-7. [Diagramas UML](#-uml)
-8. [Controles](#-controles)
+1. [Descripción general](#descripcion)
+2. [Características del juego](#caracteristicas)
+3. [Requisitos e instalación](#requisitos)
+4. [Estructura del proyecto](#estructura)
+5. [Arquitectura del sistema](#arquitectura)
+6. [Análisis POO](#analisis-poo)
+7. [Diagramas UML](#uml)
+8. [Controles](#controles)
 
 ---
 <a id="descripcion"></a>
