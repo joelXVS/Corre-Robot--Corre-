@@ -6,17 +6,17 @@
 
 ## Índice
 
-1. [Descripción general](#-Descripción-general)
-2. [Características del juego](#-Características-del-juego)
-3. [Requisitos e instalación](#-Requisitos-e-instalación)
-4. [Estructura del proyecto](#-Estructura-del-proyecto)
-5. [Arquitectura del sistema](#-Arquitectura-del-Sistema)
-6. [Análisis POO](#-Análisis-POO)
-7. [Diagramas UML](#-Diagramas-uml)
-8. [Controles](#-Controles)
+1. [Descripción general](#-descripcion)
+2. [Características del juego](#-caracteristicas)
+3. [Requisitos e instalación](#-requisitos)
+4. [Estructura del proyecto](#-estructura)
+5. [Arquitectura del sistema](#-arquitectura)
+6. [Análisis POO](#-analisis-POO)
+7. [Diagramas UML](#-uml)
+8. [Controles](#-controles)
 
 ---
-
+<a id="descripcion"></a>
 ## Descripción general
 
 **Corre Robot, Corre!** es un videojuego de plataformas 2D con scroll horizontal, escrito en **Python 3** y **pygame**. El jugador controla un robot que debe atravesar niveles basados en cuadrículas (tiles de 40×40 px), recoger ítems (baterías, engranajes, fragmentos de código), esquivar pinchos y enemigos, y llegar a la puerta de salida antes de que su energía o su vida lleguen a cero.
@@ -31,7 +31,7 @@ El proyecto incluye:
 - **Fragmentos secretos** que juntos forman un código desbloqueable.
 
 ---
-
+<a id="caracteristicas"></a>
 ## Características del juego
 
 | Módulo | Descripción |
@@ -47,7 +47,7 @@ El proyecto incluye:
 | **Mis niveles** | Listado, renombrado, edición y borrado de niveles de usuario. |
 
 ---
-
+<a id="requisitos"></a>
 ## Requisitos e instalación
 
 ### Requisitos
@@ -76,7 +76,9 @@ levels/
 └── usuario/ # niveles creados por el jugador
 ```
 
+<a id="estructura"></a>
 ## Estructura del proyecto
+
 ```text
 proyecto/
 ├── main.py                 # Motor de la aplicación
@@ -120,6 +122,7 @@ proyecto/
     └── usuario/
 ```
 
+<a id="arquitectura"></a>
 ## Arquitectura del Sistema
 
 El sistema sigue una arquitectura en capas con separación clara de responsabilidades:
@@ -155,7 +158,9 @@ El sistema sigue una arquitectura en capas con separación clara de responsabili
 - Los gestores (Recursos, Sonidos, Progreso) actúan como servicios transversales con caches.
 
 ---
+<a id="analisis-POO"></a>
 ## Análisis POO
+
 ### 1. Herencia
 #### Jerarquía de entidades
 
@@ -253,6 +258,8 @@ CONDICIONES = {
 
 - Recursos — abstrae el acceso a assets con fallbacks.
 
+---
+<a id="uml"></a>
 ## Diagramas UML
 ### Diagrama de Clases
 <img src="diagramas/conceptual.png" alt="Clases" width="600"><>
@@ -265,6 +272,8 @@ CONDICIONES = {
 ### Diagrama de Estados
 <img src="diagramas/estados.png" alt="Estados" width="600"><>
 
+---
+<a id="controles"></a>
 ## Controles
 | Acción | Tecla por defecto |
 |---|---|
