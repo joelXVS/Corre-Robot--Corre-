@@ -1,0 +1,28 @@
+{
+  "vol_musica": 0.4052631578947368,
+  "vol_sfx": 1.0,
+  "personaje_seleccionado": 0,
+  "nivel_max_desbloqueado": 1,
+  "estadisticas": {
+    "total_completados": 2,
+    "niveles_completados": [
+      0
+    ],
+    "baterias_recogidas": 71,
+    "engranajes_recogidos": 46,
+    "codigos_recogidos": 16,
+    "codigo_secreto_encontrado": false,
+    "puntuacion_maxima": 0,
+    "fragmentos_secretos": []
+  },
+  "fps": 30,
+  "calidad": "alta",
+  "pantalla_completa": true,
+  "teclas": {
+    "izquierda": 1073741904,
+    "derecha": 1073741903,
+    "salto": 32,
+    "pausa": 27,
+    "reiniciar": 114
+  }
+}

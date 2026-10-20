@@ -1,0 +1,41 @@
+"""Ajustes globales del juego."""
+
+ANCHO = 960
+ALTO = 540
+FPS = 60
+TITULO = "Corre Robot, Corre!"
+TAM_TILE = 40
+FUENTE = "assets/MinecraftStandard.otf"
+
+# Colores
+COLOR_FONDO  = (18, 18, 28)
+COLOR_SUELO  = (60, 60, 80)
+COLOR_PINCHO = (200, 60, 60)
+COLOR_PUERTA = (120, 200, 120)
+
+# Robot
+GRAVEDAD        = 0.8
+FUERZA_SALTO    = -14
+VELOCIDAD_ROBOT = 5
+VIDA_MAXIMA     = 43800
+ENERGIA_MAXIMA  = 80
+PERSONAJE_INICIAL  = 0
+
+# Daño
+DANIO_PINCHO  = VIDA_MAXIMA // 20
+DANIO_ENEMIGO = VIDA_MAXIMA // 10
+
+# Energia
+USO_ENERGIA_SALTO = 3
+
+# Items
+ENERGIA_BATERIA      = 25
+REPARACION_ENGRANAJE = 20
+DURACION_HABILIDAD   = 8.0   # segundos
+
+# Habilidades
+SUPER_SALTO      = -18
+DOBLE_SALTO      = False
+SUPER_VELOCIDAD  = 8
+VOLAR            = False
+RESISTENCIA      = VIDA_MAXIMA // 7

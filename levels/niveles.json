@@ -1,0 +1,12 @@
+{
+  "niveles": [
+    {
+      "archivo": "level1.txt",
+      "nombre": "Sector Alpha",
+      "fondo": "fondos/bg_001.png",
+      "suelo": "None",
+      "musica": "Sector_Alpha.mp3",
+      "codigo_secreto": ""
+    }
+  ]
+}
